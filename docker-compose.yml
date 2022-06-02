@@ -18,4 +18,4 @@ services:
     ports:
         - 8000:80
     volumes:
-        - ./build:/usr/share/nginx/html
+        - ./frontend/build:/usr/share/nginx/html
