@@ -1,8 +1,8 @@
 version: '3.7'
 
 services:
-  app:
-    container_name: claim.app
+  frontend:
+    container_name: claim.frontend
     #entrypoint: ['npm', '--prefix', '/onefleet', 'run', 'dev']
     ports:
       - '8080:8080'
@@ -12,8 +12,8 @@ services:
     volumes:
         - ./build:/claimasyl/build
     build:
-      context: .
-  client:
+      context: frontend
+  webserver:
     image: nginx
     ports:
         - 8000:80
