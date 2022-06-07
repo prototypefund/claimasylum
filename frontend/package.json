@@ -16,8 +16,13 @@
     "google-map-react": "^2.1.10",
     "i18next": "^21.6.16",
     "leaflet": "^1.8.0",
+<<<<<<< HEAD:package.json
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+=======
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+>>>>>>> 6d697c6d08304a97e9995b01075f5340538ffe3a:frontend/package.json
     "react-i18next": "^11.16.7",
     "react-leaflet": "^4.0.0",
     "react-redux": "^7.2.6",
