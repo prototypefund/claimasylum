@@ -83,7 +83,7 @@ export default function SearchAppBar() {
       case "en":
         return "English";
       case "tr":
-        return "Türkçe";
+        return "Türkiye";
       case "ar":
         return "عربي";
       case "fa":
@@ -125,7 +125,7 @@ export default function SearchAppBar() {
               <Collapse orientation={width > 600 ? 'horizontal': 'vertical'} in={openLangMenu} className="langMenu">
               <div style={{ display: "flex", justifyContent: "end", alignItems:"center", gap: 20 }} >
               <p style={{cursor: 'pointer', textDecoration: language === 'en'? 'underline' : null}} onClick={handleLang} data-code="en">English</p>
-              <p style={{cursor: 'pointer', textDecoration: language === 'tr'? 'underline' : null}} onClick={handleLang} data-code="tr">Türkçe</p>
+              <p style={{cursor: 'pointer', textDecoration: language === 'tr'? 'underline' : null}} onClick={handleLang} data-code="tr">Türkiye</p>
               <p style={{cursor: 'pointer', textDecoration: language === 'fa'? 'underline' : null}} onClick={handleLang} data-code="fa">فارسی</p>
               <p style={{cursor: 'pointer', textDecoration: language === 'ar'? 'underline' : null}} onClick={handleLang} data-code="ar">عربي</p>
               <p style={{cursor: 'pointer', textDecoration: language === 'fr'? 'underline' : null}} onClick={handleLang} data-code="fr">Français</p>
